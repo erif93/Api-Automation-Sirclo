@@ -11,5 +11,7 @@ run command mvn clean install
 run command mvn clean test
 
 Pre-condition : 
+
 Set java JDK path in local environment
+
 Set maven in local environment
