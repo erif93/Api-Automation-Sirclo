@@ -8,7 +8,6 @@ import pages.ApiPages;
 
 public class ApiSteps {
 	
-	String baseURI="http://qa-interview.srcli.xyz";
 	ApiPages objAPI;
 	RequestSpecification request;
 	Response response;
