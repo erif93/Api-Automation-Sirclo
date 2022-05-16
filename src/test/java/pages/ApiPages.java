@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class ApiPages {
 	
 
-	RequestSpecification request;
+    RequestSpecification request;
     Response response;
     String base="http://qa-interview.srcli.xyz";
     String endPoint ="";
@@ -28,7 +28,6 @@ public class ApiPages {
 	public Response sendRequest(String state, String domain) {
 		RestAssured.baseURI = base;
 		request= RestAssured.given();
-		System.out.println("di atas bos");
 		if(state.equals("GET")) {
 			switch (domain) {
 	         case "homepage":
